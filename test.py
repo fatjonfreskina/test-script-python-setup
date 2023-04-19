@@ -1,4 +1,8 @@
 import pandas as pd
 import numpy as np
 
-print("Imported successfully!")
+def main():
+  print("Imported successfully!")
+  
+if __name__ == "__main__":
+    main()
