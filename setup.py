@@ -1,7 +1,7 @@
 from distutils.core import setup
 
 setup(name='test-script',
-      version=0.0.1,
+      version='1.0',
       description='Just print hello world',
       license='UNIPD',
       author='Fatjon Freskina',
