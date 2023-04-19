@@ -7,5 +7,7 @@ setup(name='test-script',
       author='Fatjon Freskina',
       author_email='fatjonfreskina@gmail.com',
       install_requires=[
-        'pandas', 'numpy'],  # here
+        'pandas', 'numpy'],
+      py_modules=["test"],
+      entry_points={"console_scripts": ["test=test:main"]},
 )
